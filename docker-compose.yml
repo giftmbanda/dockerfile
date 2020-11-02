@@ -25,16 +25,4 @@ services:
 volumes:
   my-db:
 #this is the end of mysql docker instance
-
-
-#this is the start of monngodb docker instance
-version: '3'
-services: 
-  mongo:
-    container_name: mongo
-    image: mongo
-    ports:
-      - '27017:27017'
-
-#this is the end of mongodb docker instance
       
